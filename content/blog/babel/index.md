@@ -1,6 +1,7 @@
 ---
 title: Babel Allows the Latest and Greatest JS Syntax for Any Browser
 date: 2020-04-14
+description: Babel will transpile whatever version of Javascript you're using onto any old or new browser
 ---
 
 I was reviewing my coworkers PR, and in there, I saw that he was validating properties in a nested objected to see if it existed, like so:
