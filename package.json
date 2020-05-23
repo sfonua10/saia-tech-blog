@@ -3,13 +3,16 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <saiafonua@gmail.com>",
+  "author": "Saia Fonua <saiafonua@gmail.com>",
   "bugs": {
     "url": "https://github.com/sfonua10/saia-tech-blog/issues"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "gatsby": "^2.21.22",
     "gatsby-image": "^2.4.3",
+    "gatsby-plugin-emotion": "^4.3.2",
     "gatsby-plugin-feed": "^2.5.1",
     "gatsby-plugin-google-analytics": "^2.3.1",
     "gatsby-plugin-manifest": "^2.4.2",

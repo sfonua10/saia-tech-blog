@@ -7,7 +7,7 @@ const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
-  if (location.pathname === rootPath) {
+  if (location?.pathname === rootPath) {
     header = (
       <h1
         style={{
@@ -54,14 +54,16 @@ const Layout = ({ location, title, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        display: `flex`,
+        flexDirection: `column`,
+        minHeight: `100vh`,
       }}
     >
       <header>{header}</header>
-      <main>{children}</main>
+      <main style={{ flexGrow: 1 }}>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        © {new Date().getFullYear()},{` `}
+        <a href="https://www.linkedin.com/in/saiafonua/">Saia Fonua</a>
       </footer>
     </div>
   )
