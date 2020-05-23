@@ -54,6 +54,9 @@ const Projects = () => {
             Inspiration Blog
           </A>
           2020 - Present
+          <A target="_blank" href="https://jam-stack-form.netlify.app/">
+            Serverless Jam Stack Form
+          </A>
         </section>
       </main>
     </Layout>
